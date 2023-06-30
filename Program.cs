@@ -12,7 +12,8 @@ namespace Сумма_чисел
         {
             Random random = new Random();
 
-            int minNumber = 0, maxNumber = 100;
+            int minNumber = 0;
+            int maxNumber = 100;
             int number = random.Next(minNumber, maxNumber + 1);
             int divider1 = 3;
             int divider2 = 5;
