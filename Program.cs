@@ -13,8 +13,8 @@ namespace Сумма_чисел
             Random random = new Random();
 
             int number = random.Next(0, 101);
-            int multiples1 = 3;
-            int multiples2 = 5;
+            int divider1 = 3;
+            int divider2 = 5;
             int sumMultiples1 = 0;
             int sumMultiples2 = 0;
             int sumAllNumbers = 0;
@@ -23,7 +23,7 @@ namespace Сумма_чисел
 
             for (int i = 1; i <= number; i++)
             {
-                if (i % multiples1 == 0 || i % multiples2 == 0)
+                if (i % divider1 == 0 || i % divider2 == 0)
                 {
                     Console.WriteLine(i);
                     sumAllNumbers  += i;
