@@ -14,9 +14,7 @@ namespace Сумма_чисел
 
             int number = random.Next(0, 101);
             int divider1 = 3;
-            int divider2 = 5;
-            int sumMultiples1 = 0;
-            int sumMultiples2 = 0;
+            int divider2 = 5;;
             int sumAllNumbers = 0;
 
             Console.WriteLine("Рандомное число: " + number);
