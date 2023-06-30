@@ -12,9 +12,10 @@ namespace Сумма_чисел
         {
             Random random = new Random();
 
-            int number = random.Next(0, 101);
+            int minNumber = 0, maxNumber = 100;
+            int number = random.Next(minNumber, maxNumber + 1);
             int divider1 = 3;
-            int divider2 = 5;;
+            int divider2 = 5;
             int sumAllNumbers = 0;
 
             Console.WriteLine("Рандомное число: " + number);
